@@ -22,9 +22,9 @@ class School
   
   def sort
     
-  sorted_roster = {}
   self.roster.each do |grade , name|
     self.roster[grade] = name.sort
+    
     end
   end
   
